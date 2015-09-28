@@ -5,6 +5,12 @@ python:
   - "3.2"
   - "3.3"
   - "3.4"
+  
+env:
+  - REQUIREMENTS=lowest
+  - REQUIREMENTS=release
+  - REQUIREMENTS=devel
+  
 # command to install dependencies
 install:
   - pip install .
