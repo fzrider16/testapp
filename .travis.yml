@@ -2,9 +2,6 @@ language: python
 python:
   - "2.7"
 env:
-  - REQUIREMENTS=lowest
-  - REQUIREMENTS=release
-  - REQUIREMENTS=devel
   - APP_SETTINGS=config.DevelopmentConfig
   - DATABASE_URL=postgresql://localhost/testapp
   
